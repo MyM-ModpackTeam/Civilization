@@ -10,7 +10,7 @@ deploy:
     secure: pykYfPPbbYNCwMh1JS+K28vVgVaXBPp7zXkLn5xUaisfdLZ6x60cLvfz5QBMIX6nCghIYjalu+XYy6xNvMNWYbmxzvM4EX445xLt/UR+RsB2N0eT70ZO3dh+S1/ProkVxMnaIiRXrEq8inDut9GK/urbzM2D98b458zdZKROTCqxM7WgL+58SB/2RsESrgpe38HyxzY3DEMpq1/fkrdpv6mXpJqKGntXkquO57GvgRTncOiAJnkREtghZw0dzLxzze3c0KRMRjUmjhdZS73aXDZXEyQ/ll4s7vT9FljnnMxGxCP6/VALarFyWikxhQpFtya+ILGiiiu+wA3ShlI0h3mM/CejxRpiCENe0KgVY2RGM+sV0+3efVQVM56ywKNV8Qs/WrMljjegUMceLQCizgaal+sK0Q3vROvqWgGw1gt0QB4X5dpZD60DH7GUREH5KI/aMy+vIIsyykvq7z9XAOK66lNZw6IuSXSIbxzMN2AmeQAgW7agD9lxfD2abTgngSxy/DHg6AP9pzj2t8zne/IaT4s9hKBUhfVykIGc7l1yRPIYXrXz7V9/Y1E/Lj5SlvgUA6SoeKEvQKYtncpPQfrS7I0stQcRDJtjUVJyHZMC7nLi+afR8eaLxWaa5XEQ334Vjz5lg0C5d++EYxHqjcvtfeMcJkUZZhM+0YZBNJc=
   file_glob: true
   file:
-  - build/Hypovolemia_*_Client.zip
-  - build/Hypovolemia_*_Server.zip
+  - build/Civilization_*_Client.zip
+  - build/Civilization_*_Server.zip
   on:
     tags: true
