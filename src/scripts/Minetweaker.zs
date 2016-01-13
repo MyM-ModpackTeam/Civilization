@@ -164,3 +164,10 @@ recipes.addShaped(<ExtraUtilities:enderThermicPump>,
  [[<Forestry:thermionicTubes:6>, <Magneticraft:geothermal_pump>, <Forestry:thermionicTubes:6>],
   [<Mekanism:MachineBlock:12>, <EnderIO:blockTank:1>, <Mekanism:MachineBlock:12>],
   [<PneumaticCraft:vacuumPump>, <Metallurgy:tartarite.pickaxe>, <PneumaticCraft:vacuumPump>]]);
+  
+//Railcraft Turbine Blade
+recipes.remove(<Railcraft:part.turbine.blade>);
+recipes.addShaped(<Railcraft:part.turbine.blade>,
+ [[null, null, <ore:ingotSteel>],
+  [null, <ore:ingotSteel>, null],
+  [<ore:ingotSteel>, null, null]]);
