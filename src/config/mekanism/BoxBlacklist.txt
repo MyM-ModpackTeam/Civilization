@@ -253,4 +253,5 @@ Thaumcraft:blockAlchemyFurnace:1
 Thaumcraft:blockAlchemyFurnace:2
 Thaumcraft:blockAlchemyFurnace:3
 Thaumcraft:blockAlchemyFurnace:4
+Thaumcraft:blockEldritch:1
 WitchingGadgets:tile.WG_StoneDevice.name:8
