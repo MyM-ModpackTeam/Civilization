@@ -144,14 +144,7 @@ recipes.addShaped(<MCA:DiamondDust>,
   [<ImmersiveEngineering:tool>, <minecraft:diamond>, null],
   [null, null, null]]);
 
-// ================================================================================
-//Doggy Styles
 
-recipes.removeShaped(<doggystyle:dog_whistle>);
-recipes.addShaped(<doggystyle:dog_whistle>,
- [[null, null, <minecraft:iron_ingot>],
-  [<TConstruct:materials:19>, <minecraft:iron_ingot>, null],
-  [<minecraft:iron_ingot>, null, null]]);
   
 // ================================================================================
 //Vanilla
