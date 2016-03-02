@@ -20,5 +20,7 @@ It is meant to be played on a server (our server) and in a social enviroment.
 The pack contains a little of everything. You can master one thing or master them all.
 There are Tech, Magic, Science, Culinary, Nature, Exploration and RPG mods.
 
+we suggest you use 4GBs of RAM
+
 ## Credits
 http://minecraft.curseforge.com/projects/civilization/relations/dependencies
