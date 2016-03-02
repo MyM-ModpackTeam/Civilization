@@ -28,6 +28,50 @@ recipes.addShaped(<flansmod:helicopterBlade>,
   [<minecraft:gold_ingot>, <minecraft:iron_ingot>, null],
   [<minecraft:gold_ingot>, null, null]]);
   
+
+
+// ================================================================================
+//EZstorage
+
+recipes.remove(<ezstorage:search_box>);
+recipes.addShaped(<ezstorage:search_box>,
+[[<ore:ingotCopper>, <ore:blockEnderCore>, <ore:ingotCopper>],
+[<ore:ingotSteel>, <Railcraft:tool.magnifying.glass>, <ore:ingotSteel>],
+[<ore:ingotCopper>, <ore:blockEnderCore>, <ore:ingotCopper>]]);
+
+recipes.remove(<ezstorage:storage_core>);
+recipes.addShaped(<ezstorage:storage_core>,
+[[<ore:ingotCopper>, <EnderIO:itemFrankenSkull:2>, <ore:ingotCopper>],
+[<EnderIO:blockEndermanSkull:2>, <minecraft:nether_star>, <EnderIO:blockEndermanSkull:2>],
+[<ore:ingotCopper>, <EnderIO:itemFrankenSkull:2>, <ore:ingotCopper>]]);
+
+recipes.remove(<ezstorage:crafting_box>);
+recipes.addShaped(<ezstorage:crafting_box>,
+[[<EnderIO:blockCrafter>, <ore:ingotDarkSoularium>, <EnderIO:blockCrafter>],
+ [<ExtraUtilities:nodeUpgrade:8>, <RefinedRelocation:relocatorModule:12>, <ExtraUtilities:nodeUpgrade:8>],
+ [<EnderIO:blockCrafter>, <ore:ingotDarkSoularium>, <EnderIO:blockCrafter>]]);
+
+ 
+recipes.remove(<ezstorage:condensed_storage_box>);
+recipes.addShaped(<ezstorage:condensed_storage_box>,
+ [[<ezstorage:storage_box>, <minecraft:log>, <ezstorage:storage_box>],
+  [<EnderIO:blockIngotStorage:6>, <minecraft:diamond_block>, <EnderIO:blockIngotStorage:6>],
+  [<ezstorage:storage_box>,<minecraft:log>, <ezstorage:storage_box>]]);
+ 
+ recipes.remove(<ezstorage:hyper_storage_box>);
+ recipes.addShaped(<ezstorage:hyper_storage_box>,
+ [[<ezstorage:condensed_storage_box>, null, <ezstorage:condensed_storage_box>],
+  [<ezstorage:condensed_storage_box>, <ExtraUtilities:bedrockiumIngot>, <ezstorage:condensed_storage_box>],
+  [<ezstorage:condensed_storage_box>, null, <ezstorage:condensed_storage_box>]]);
+  
+ recipes.removeShaped(<ezstorage:input_port>);
+ recipes.addShaped(<ezstorage:input_port>,
+ [[<minecraft:sticky_piston>, <RefinedRelocation:filteringHopper>, <minecraft:sticky_piston>],
+  [<RefinedRelocation:filteringHopper>, null, <RefinedRelocation:filteringHopper>],
+  [<minecraft:sticky_piston>, <RefinedRelocation:filteringHopper>, <minecraft:sticky_piston>]]);  
+
+  
+  
 // ================================================================================
 //Extra Utilities
 
