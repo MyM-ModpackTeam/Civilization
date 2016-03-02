@@ -1,6 +1,3 @@
 // ================================================================================
-//Doggy Styles
-
-recipes.removeShaped(<doggystyle:hydrant>);
-
-// ================================================================================
+//EnderIO
+recipes.removeShaped(<EnderIO:blockInventoryPanel>);
