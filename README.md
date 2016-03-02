@@ -20,7 +20,8 @@ It is meant to be played on a server (our server) and in a social enviroment.
 The pack contains a little of everything. You can master one thing or master them all.
 There are Tech, Magic, Science, Culinary, Nature, Exploration and RPG mods.
 
-we suggest you run this pack with 4GBs of RAM and are running java 7 or 8
+We suggest you run this pack with atleast 3GBs of RAM. recommened is 4GBs of RAM.
+You will also need to have java 8+ as some mods in this pack require it.
 
 ## Credits
 http://minecraft.curseforge.com/projects/civilization/relations/dependencies
