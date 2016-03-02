@@ -70,7 +70,13 @@ recipes.addShaped(<ezstorage:condensed_storage_box>,
   [<RefinedRelocation:filteringHopper>, null, <RefinedRelocation:filteringHopper>],
   [<minecraft:sticky_piston>, <RefinedRelocation:filteringHopper>, <minecraft:sticky_piston>]]);  
 
-  
+// ================================================================================
+//Flans Mods
+recipes.removeShaped(<flansmod:flakvierling>);
+recipes.addShaped(<flansmod:flakvierling>,
+ [[null , <flansmod:aaBarrel>, <flansmod:aaBarrel>],
+  [<minecraft:leather> , <flansmod:aaBarrel>, <flansmod:aaBarrel>],
+  [<flansmod:largeWheel> , <minecraft:iron_ingot>, <flansmod:largeWheel>]]);
   
 // ================================================================================
 //Extra Utilities
