@@ -25,3 +25,5 @@ You will also need to have java 8+ as some mods in this pack require it.**
 
 ## Credits
 http://minecraft.curseforge.com/projects/civilization/relations/dependencies
+
+https://docs.google.com/document/d/1uIppr6m-wD7iD3RxVR43YSOZPaFTZHXcJfUSWwGXE7w/edit?usp=sharing
