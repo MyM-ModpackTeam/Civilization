@@ -149,6 +149,16 @@ recipes.addShaped(<MCA:DiamondDust>,
  [[null, null, null],
   [<ImmersiveEngineering:tool>, <minecraft:diamond>, null],
   [null, null, null]]);
+  
+  
+// ================================================================================
+// ProjectRed
+
+recipes.remove(<ProjRed:projectred.core.part:34>);
+recipes.addShaped(<ProjRed:projectred.core.part:34> * 2,
+[[<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>],
+[<minecraft:dye>,<minecraft:dye>,<minecraft:dye>],
+[null,null,null]];
 
 
   
