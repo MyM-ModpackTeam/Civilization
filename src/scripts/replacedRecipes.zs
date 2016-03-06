@@ -1,4 +1,13 @@
 // ================================================================================
+//Chisel
+
+recipes.addShaped(<chisel:marble> * 2,
+ [[<minecraft:sand>, null, null],
+  [null, <minecraft:dirt>, null],
+  [null, null, <ExtraUtilities:color_stone>]]);
+
+
+// ================================================================================
 //Redstone Arsenal
 
 recipes.removeShaped(<RedstoneArsenal:material:128>);
@@ -154,11 +163,11 @@ recipes.addShaped(<MCA:DiamondDust>,
 // ================================================================================
 // ProjectRed
 
-recipes.remove(<ProjRed:projectred.core.part:34>);
-recipes.addShaped(<ProjRed:projectred.core.part:34> * 2,
+recipes.remove(<ProjRed|Core:projectred.core.part:34>);
+recipes.addShaped(<ProjRed|Core:projectred.core.part:34> * 2,
 [[<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,<minecraft:glowstone_dust>],
 [<minecraft:dye>,<minecraft:dye>,<minecraft:dye>],
-[null,null,null]];
+[null,null,null]]);
 
 
   

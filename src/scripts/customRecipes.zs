@@ -69,11 +69,3 @@ recipes.addShaped(<Growthcraft|Bamboo:grc.bamboo> * 3,
   
 recipes.addShapeless(<Growthcraft|Bees:grc.bee>, [<Mariculture:bait:4>]);
 
-// ================================================================================
-//Pam's Harvestcraft
-
-furnace.addRecipe(<harvestcraft:turtlecookedItem>, <Aquaculture:item.Fish:18>);
-
-recipes.addShapeless(<Aquaculture:item.loot:9>, [<harvestcraft:turtlerawItem>, <minecraft:water_bucket>]);
-
-recipes.addShapeless(<minecraft:slime_ball>, [<Aquaculture:item.Fish:16>]);
