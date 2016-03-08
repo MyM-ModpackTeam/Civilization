@@ -23,7 +23,7 @@ There are Tech, Magic, Science, Culinary, Nature, Exploration and RPG mods.
 
 **We suggest you run this pack with atleast 3GBs of RAM. Recommened is 4GBs of RAM.
 You will also need to have java 8+ as some mods in this pack require it.**
-**fastcraft is recommended for all users.**
+
 
 This pack contains [Fastcraft](http://forum.industrial-craft.net/index.php?page=Thread&threadID=10820), by Player. Fastcraft enhances Minecraft with increased performance. Bug reports being made directly to Mod Authors should state Fastcraft is enabled.
 
