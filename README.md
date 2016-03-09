@@ -2,13 +2,13 @@
 
 ![](http://media-elerium.cursecdn.com/avatars/30/299/635860770600916892.png)
 
-Over the centuries, many Civilizations have rose to power but just has many have fallen.
+Over the centuries, many civilizations have rose to power but just has many have fallen.
 If history has taught us one thing, that thing would be, that it repeats itself.
-As power grows, so does the hunger for more power, People begin to want it all.
+As power grows, so does the hunger for more power, people begin to want it all.
 This leads to destruction and chaos. Wars begin to break out, and as it has been said before
 "War, war never changes"
 
-So will your Civilization withstand the harsh nature of people?
+So will your civilization withstand the harsh nature of people?
 Or will your community be a friendly one?
 
 Have we finally learnt from our past mistakes?
@@ -21,7 +21,7 @@ The pack contains a little of everything. You can master one thing or master the
 There are Tech, Magic, Science, Culinary, Nature, Exploration and RPG mods.
 
 
-**We suggest you run this pack with atleast 3GBs of RAM. Recommened is 4GBs of RAM.
+**We suggest you run this pack with atleast 3GBs of RAM. Recommended is 4GBs of RAM.
 You will also need to have java 8+ as some mods in this pack require it.**
 
 
