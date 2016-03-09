@@ -56,22 +56,22 @@ recipes.addShaped(<ezstorage:search_box>,
 
 recipes.remove(<ezstorage:storage_core>);
 recipes.addShaped(<ezstorage:storage_core>,
-[[<ore:ingotCopper>, <EnderIO:itemFrankenSkull:2>, <ore:ingotCopper>],
-[<EnderIO:blockEndermanSkull:2>, <minecraft:nether_star>, <EnderIO:blockEndermanSkull:2>],
+[[<ore:ingotCopper>, <ore:logWood>, <ore:ingotCopper>],
+[<ore:logWood>, <minecraft:nether_star>, <ore:logWood>],
 [<ore:ingotCopper>, <EnderIO:itemFrankenSkull:2>, <ore:ingotCopper>]]);
 
 recipes.remove(<ezstorage:crafting_box>);
 recipes.addShaped(<ezstorage:crafting_box>,
-[[<EnderIO:blockCrafter>, <ore:ingotDarkSoularium>, <EnderIO:blockCrafter>],
+[[<EnderIO:blockCrafter>, <ore:logWood>, <EnderIO:blockCrafter>],
  [<ExtraUtilities:nodeUpgrade:8>, <RefinedRelocation:relocatorModule:12>, <ExtraUtilities:nodeUpgrade:8>],
- [<EnderIO:blockCrafter>, <ore:ingotDarkSoularium>, <EnderIO:blockCrafter>]]);
+ [<EnderIO:blockCrafter>, <ore:logWood>, <EnderIO:blockCrafter>]]);
 
  
 recipes.remove(<ezstorage:condensed_storage_box>);
 recipes.addShaped(<ezstorage:condensed_storage_box>,
- [[<ezstorage:storage_box>, <minecraft:log>, <ezstorage:storage_box>],
-  [<EnderIO:blockIngotStorage:6>, <minecraft:diamond_block>, <EnderIO:blockIngotStorage:6>],
-  [<ezstorage:storage_box>,<minecraft:log>, <ezstorage:storage_box>]]);
+ [[<ezstorage:storage_box>, <ore:logWood>, <ezstorage:storage_box>],
+  [<EnderIO:itemAlloy:6>, <minecraft:diamond_block>, <EnderIO:itemAlloy:6>],
+  [<ezstorage:storage_box>,<ore:logWood>, <ezstorage:storage_box>]]);
  
  recipes.remove(<ezstorage:hyper_storage_box>);
  recipes.addShaped(<ezstorage:hyper_storage_box>,
