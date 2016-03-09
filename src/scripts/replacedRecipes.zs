@@ -50,9 +50,9 @@ recipes.addShaped(<flansmod:flakvierling>,
 
 recipes.remove(<ezstorage:search_box>);
 recipes.addShaped(<ezstorage:search_box>,
-[[<ore:ingotCopper>, <ore:blockEnderCore>, <ore:ingotCopper>],
+[[<ore:ingotCopper>, <ExtraUtilities:decorativeBlock1:8>, <ore:ingotCopper>],
 [<ore:ingotSteel>, <Railcraft:tool.magnifying.glass>, <ore:ingotSteel>],
-[<ore:ingotCopper>, <ore:blockEnderCore>, <ore:ingotCopper>]]);
+[<ore:ingotCopper>, <ExtraUtilities:decorativeBlock1:8>, <ore:ingotCopper>]]);
 
 recipes.remove(<ezstorage:storage_core>);
 recipes.addShaped(<ezstorage:storage_core>,
