@@ -127,3 +127,5 @@ AgriCraft:seedVishroom=AgriCraft:seedShroomBrown+AgriCraft:seedShimmerleaf
 AgriCraft:seedTarmaRoot=AgriCraft:seedDesertNova+AgriCraft:seedShroomBrown
 AgriCraft:seedShimmerleaf=AgriCraft:seedCerublossom+AgriCraft:seedTulipWhite
 AgriCraft:seedTaintedRoot=AgriCraft:seedVishroom+AgriCraft:seedTarmaRoot
+AgriCraft:seedDesertNova=AgriCraft:seedCactus+AgriCraft:seedPoppy
+AgriCraft:seedCerublossom=minecraft:wheat_seeds+AgriCraft:seedLapender
