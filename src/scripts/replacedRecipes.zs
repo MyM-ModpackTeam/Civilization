@@ -1,3 +1,49 @@
+//Applied Energistics
+
+recipes.remove(<appliedenergistics2:tile.BlockQuartzGrowthAccelerator> );
+
+recipes.addShaped(<appliedenergistics2:tile.BlockQuartzGrowthAccelerator>,
+ [[<ExtraUtilities:unstableingot>.withTag({creative: 1 as byte}),<appliedenergistics2:item.ItemMultiPart:76> ,<ExtraUtilities:unstableingot>.withTag({creative: 1 as byte}) ],
+  [<RandomThings:spectreGlass>,<appliedenergistics2:tile.BlockFluix> , <RandomThings:spectreGlass>],
+  [<ExtraUtilities:unstableingot>.withTag({creative: 1 as byte}),<appliedenergistics2:item.ItemMultiPart:76> ,<ExtraUtilities:unstableingot>.withTag({creative: 1 as byte}) ]]);
+  
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:16>);
+
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:16> * 12,
+ [[<appliedenergistics2:item.ItemMultiPart:140>, <appliedenergistics2:tile.BlockFluix>, <appliedenergistics2:tile.BlockFluix>],
+  [null, null, null],
+  [null, null, null]]);
+  
+recipes.remove(<appliedenergistics2:tile.BlockCharger>);
+
+recipes.addShaped(<appliedenergistics2:tile.BlockCharger>,
+ [[<minecraft:iron_block>, <appliedenergistics2:tile.BlockFluix>, <minecraft:iron_block>],
+  [<minecraft:iron_block>, null,null],
+  [<minecraft:iron_block>, <appliedenergistics2:tile.BlockFluix>, <minecraft:iron_block>]]);
+  
+recipes.remove(<appliedenergistics2:tile.BlockMolecularAssembler>);
+  
+recipes.addShaped(<appliedenergistics2:tile.BlockMolecularAssembler>,
+ [[<minecraft:iron_block>, <RandomThings:spectreGlass>, <minecraft:iron_block>],
+  [<appliedenergistics2:item.ItemMultiMaterial:44>, <EnderIO:blockCrafter>, <appliedenergistics2:item.ItemMultiMaterial:43>],
+  [<minecraft:iron_block>, <RandomThings:spectreGlass>, <minecraft:iron_block>]]);
+  
+recipes.remove(<appliedenergistics2:tile.BlockEnergyAcceptor>);
+  
+recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>,
+ [[<minecraft:iron_block>, <RandomThings:spectreGlass>, <minecraft:iron_block>],
+  [<RandomThings:spectreGlass>, <appliedenergistics2:tile.BlockFluix>, <RandomThings:spectreGlass>],
+  [<minecraft:iron_block>, <RandomThings:spectreGlass>, <minecraft:iron_block>]]);
+
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:35>);
+  
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:35>,
+ [[<minecraft:redstone_block>, <appliedenergistics2:tile.BlockQuartz>, <minecraft:redstone_block>],
+  [<appliedenergistics2:tile.BlockQuartz>, <appliedenergistics2:item.ItemMultiMaterial:22>, <appliedenergistics2:tile.BlockQuartz>],
+  [<minecraft:redstone_block>, <appliedenergistics2:tile.BlockQuartz>, <minecraft:redstone_block>]]);
+  
+  
+
 // ================================================================================
 //Chisel
 
@@ -44,46 +90,6 @@ recipes.addShaped(<flansmod:flakvierling>,
   [<flansmod:largeWheel> , <minecraft:iron_ingot>, <flansmod:largeWheel>]]);
   
 
-
-// ================================================================================
-//EZstorage
-
-recipes.remove(<ezstorage:search_box>);
-recipes.addShaped(<ezstorage:search_box>,
-[[<ore:ingotCopper>, <ExtraUtilities:decorativeBlock1:8>, <ore:ingotCopper>],
-[<ore:ingotSteel>, <Railcraft:tool.magnifying.glass>, <ore:ingotSteel>],
-[<ore:ingotCopper>, <ExtraUtilities:decorativeBlock1:8>, <ore:ingotCopper>]]);
-
-recipes.remove(<ezstorage:storage_core>);
-recipes.addShaped(<ezstorage:storage_core>,
-[[<ore:ingotCopper>, <ore:logWood>, <ore:ingotCopper>],
-[<ore:logWood>, <minecraft:nether_star>, <ore:logWood>],
-[<ore:ingotCopper>, <EnderIO:itemFrankenSkull:2>, <ore:ingotCopper>]]);
-
-recipes.remove(<ezstorage:crafting_box>);
-recipes.addShaped(<ezstorage:crafting_box>,
-[[<EnderIO:blockCrafter>, <ore:logWood>, <EnderIO:blockCrafter>],
- [<ExtraUtilities:nodeUpgrade:8>, <RefinedRelocation:relocatorModule:12>, <ExtraUtilities:nodeUpgrade:8>],
- [<EnderIO:blockCrafter>, <ore:logWood>, <EnderIO:blockCrafter>]]);
-
- 
-recipes.remove(<ezstorage:condensed_storage_box>);
-recipes.addShaped(<ezstorage:condensed_storage_box>,
- [[<ezstorage:storage_box>, <ore:logWood>, <ezstorage:storage_box>],
-  [<EnderIO:itemAlloy:6>, <minecraft:diamond_block>, <EnderIO:itemAlloy:6>],
-  [<ezstorage:storage_box>,<ore:logWood>, <ezstorage:storage_box>]]);
- 
- recipes.remove(<ezstorage:hyper_storage_box>);
- recipes.addShaped(<ezstorage:hyper_storage_box>,
- [[<ezstorage:condensed_storage_box>, null, <ezstorage:condensed_storage_box>],
-  [<ezstorage:condensed_storage_box>, <ExtraUtilities:bedrockiumIngot>, <ezstorage:condensed_storage_box>],
-  [<ezstorage:condensed_storage_box>, null, <ezstorage:condensed_storage_box>]]);
-  
- recipes.removeShaped(<ezstorage:input_port>);
- recipes.addShaped(<ezstorage:input_port>,
- [[<minecraft:sticky_piston>, <RefinedRelocation:filteringHopper>, <minecraft:sticky_piston>],
-  [<RefinedRelocation:filteringHopper>, null, <RefinedRelocation:filteringHopper>],
-  [<minecraft:sticky_piston>, <RefinedRelocation:filteringHopper>, <minecraft:sticky_piston>]]);  
 
 
   
