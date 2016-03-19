@@ -1,11 +1,5 @@
 //loot table configeration
 
-/notes
-*readded dragon eggs but rarer and ars orbs
-*
-*
-*\
-
 //loot removed
 vanilla.loot.removeChestLoot("dungeonChest", <minecraft:dragon_egg>);
 vanilla.loot.removeChestLoot("dungeonChest", <EnderIO:itemConduitProbe>);
