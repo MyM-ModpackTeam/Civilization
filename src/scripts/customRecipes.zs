@@ -46,6 +46,13 @@ recipes.addShaped(<metallurgychisel:precious_window:1> * 8,
   [<Metallurgy:precious.block:1>, <Metallurgy:precious.block:1>, <Metallurgy:precious.block:1>]]);
   
 // ================================================================================
+//natura
+recipes.addShapeless(<minecraft:log> *3, [<Natura:Rare Tree:3>, <Natura:Rare Tree:3>, <Natura:Rare Tree:3>]);
+recipes.addShapeless(<minecraft:log> *3, [<Natura:Rare Tree>, <Natura:Rare Tree>, <Natura:Rare Tree>]);
+recipes.addShapeless(<minecraft:log> *3, [<Natura:Rare Tree:1>, <Natura:Rare Tree:1>, <Natura:Rare Tree:1>]);
+recipes.addShapeless(<minecraft:log> *3, [<Natura:Rare Tree:2>, <Natura:Rare Tree:2>, <Natura:Rare Tree:2>]);
+
+// ================================================================================
 //Thaumic Bases
 
 recipes.removeShaped(<thaumicbases:voidBlock>);
