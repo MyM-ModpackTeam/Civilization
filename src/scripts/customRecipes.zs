@@ -146,7 +146,7 @@ recipes.addShapeless(<minecraft:log> *3, [<Natura:Rare Tree:3>, <Natura:Rare Tre
 recipes.addShapeless(<minecraft:log> *3, [<Natura:Rare Tree>, <Natura:Rare Tree>, <Natura:Rare Tree>]);
 recipes.addShapeless(<minecraft:log> *3, [<Natura:Rare Tree:1>, <Natura:Rare Tree:1>, <Natura:Rare Tree:1>]);
 recipes.addShapeless(<minecraft:log> *3, [<Natura:Rare Tree:2>, <Natura:Rare Tree:2>, <Natura:Rare Tree:2>]);
-recipes.addShapeless(<minecraft:log> *3, [<Natura:redwood:1>, <Natura:redwood:1>>, <Natura:redwood:1>]);
+recipes.addShapeless(<minecraft:log> *3, [<Natura:redwood:1>, <Natura:redwood:1>, <Natura:redwood:1>]);
 recipes.addShapeless(<minecraft:log> *3, [<Natura:tree>, <Natura:tree>, <Natura:tree>]);
 recipes.addShapeless(<minecraft:log> *3, [<Natura:tree:1>, <Natura:tree:1>, <Natura:tree:1>]);
 recipes.addShapeless(<minecraft:log> *3, [<Natura:tree:3>, <Natura:tree:3>, <Natura:tree:3>]);
