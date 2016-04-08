@@ -124,6 +124,12 @@ recipes.addShaped(<Mariculture:machines_multi_rendered:3>,
   [<ore:ingotCopper>, null, <ore:ingotCopper>],
   [<ore:ingotCopper>, <ore:blockCopper>, <ore:ingotCopper>]]);
   
+recipes.removeShaped(<Mariculture:metals:5>);
+recipes.addShaped(<Mariculture:metals:5>,
+ [[<minecraft:iron_ingot>, <minecraft:glass_pane>, <minecraft:iron_ingot>],
+  [<minecraft:glass_pane>, <minecraft:glass>, <minecraft:glass_pane>],
+  [<minecraft:iron_ingot>, <minecraft:glass_pane>, <minecraft:iron_ingot>]]);
+  
 // ================================================================================
 //Silent Gems
 
